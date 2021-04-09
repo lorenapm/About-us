@@ -1,0 +1,26 @@
+.box-claim {
+  width: 290px;
+  height: 80px;
+  background: white;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.image1 {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 216px;
+  background: image();
+  border: black solid 1px;
+}
+
+#claim {
+  color: black;
+  font-family: ;
+  font-style: normal;
+  font-size: 18px;
+  padding-left: 15px;
+  text-align: justify;
+}
