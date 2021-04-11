@@ -1,12 +1,12 @@
 .image1 {
   box-sizing: border-box;
   width: 100vw;
-  height: 216px;
+  height: 90.5vh;
   background: grey;
 }
 .box-claim {
-  width: 290px;
-  height: 80px;
+  width: 90.6vw;
+  height: 17.2vh;
   background: white;
   margin: 15px;
   display: flex;
