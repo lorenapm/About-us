@@ -8,12 +8,7 @@
   width: 90.6vw;
   height: 17.2vh;
   background: white;
-  margin: 15px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  position: relative;
+  margin: 3.22vh;
   transform: translate(0, -50px);
 }
 #claim {
