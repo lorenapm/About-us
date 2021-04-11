@@ -1,7 +1,8 @@
 .image1 {
   width: 100vw;
   height: 90.5vh;
-  background-image: url(":/images");
+  background-color: grey;
+  background-image: url("./images");
 }
 .box-claim {
   width: 90.6vw;
