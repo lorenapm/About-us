@@ -7,17 +7,18 @@ header {
   justify-content: center;
   text-transform: capitalize;
 }
-.nav1{
-background-color:#14d9c4 ;
-width: 100vw;
-
-
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  background-color: #14d9c4;
+  width: 100vw;
+  justify-content: flex-start;
 }
 ul {
   background-color: #14d9c4;
   color: white;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .image1 {
@@ -115,25 +116,16 @@ ul {
   color: #099d8d;
 }
 
-li {
-  display: inline-block;
-  background-color: #14d9c4;
-}
-
 /*NO SE QUE HAGO MAL CON TAMAO IMAGEN!!*/
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  height: 250px;
+}
 
-.logo {
-  width: 115, 9 px;
-  height: 45 px;
-  box-sizing: content-box;
-
-
-  .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    background-color: white;
-    color: black;
-    margin: 0%;
-  }
+.navfooter {
+  display: flex;
+  flex-direction: column;
+}
