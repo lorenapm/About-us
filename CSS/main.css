@@ -28,10 +28,13 @@ ul {
 
 .image1 {
   max-width: 600px;
+  min-width: 320px;
 }
 
-.women-image {
+#women-image {
   width: 100vw;
+  max-width: 600px;
+  min-width: 320px;
 }
 .box-claim {
   width: 90.6vw;
