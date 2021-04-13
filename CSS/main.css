@@ -22,18 +22,19 @@ ul {
 }
 
 .image1 {
+  max-width: 600px;
+}
+
+.women-image {
   width: 100vw;
-  height: 90.5vh;
-  background-color: grey;
-  background-image: url("");
-  top: 0;
 }
 .box-claim {
   width: 90.6vw;
   height: 17.2vh;
-  background: white;
+  background-color: white;
   margin: 3.22vh;
   transform: translate(0, -50px);
+  z-index: 1;
 }
 #claim {
   color: black;
