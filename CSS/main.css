@@ -15,17 +15,8 @@ header {
   display: flex;
   flex-direction: row;
   background-color: #14d9c4;
+
   width: 100vw;
-<<<<<<< HEAD
-=======
-  justify-content: flex-start;
-  font-size: 0.9375rem;
-}
-ul {
-  background-color: #14d9c4;
-  color: white;
-  flex-direction: row;
->>>>>>> 9ec06ae073b66ef2daeae9aa7e3a1e38f5a772ee
   justify-content: space-around;
   padding: 16px;
 }
