@@ -23,12 +23,11 @@
   justify-content: space-around;
   padding: 16px;
 }
-ul.list li {
-  width: auto;
-  float: left;
-  list-style: none;
-}
-.li {
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .image1 {
@@ -38,8 +37,6 @@ ul.list li {
 
 #women-image {
   width: 100vw;
-  max-width: 600px;
-  min-width: 320px;
 }
 .box-claim {
   width: 90.6vw;
