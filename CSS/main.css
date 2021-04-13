@@ -12,13 +12,8 @@ header {
   flex-direction: row;
   background-color: #14d9c4;
   width: 100vw;
-  justify-content: flex-start;
-}
-ul {
-  background-color: #14d9c4;
-  color: white;
-  flex-direction: row;
   justify-content: space-around;
+  padding: 16px;
 }
 
 .image1 {
@@ -115,17 +110,24 @@ ul {
   size: 24px;
   color: #099d8d;
 }
-
-/*NO SE QUE HAGO MAL CON TAMAO IMAGEN!!*/
-
+/*si pones lo d ejustifycontent aqui se te 
+sube todo y desordena el footer
+por qué??? */
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: red;
+  background-color: white;
   height: 250px;
+}
+
+.copyfooter {
+  text-align: center;
 }
 
 .navfooter {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
 }
