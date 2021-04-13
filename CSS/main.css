@@ -295,4 +295,8 @@ por qué??? */
   background-color: white;
 }
 .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
