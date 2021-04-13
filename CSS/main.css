@@ -238,11 +238,44 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   size: 24px;
   color: #099d8d;
+  text-transform: uppercase;
+}
+.person {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.imagekate {
+  box-sizing: border-box;
+  border: solid grey;
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nombre {
+  font-size: 20px;
+}
+.description {
+  margin-top: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 0px 15px 0px;
+}
+.icons {
+  margin-bottom: 45px;
 }
 /*si pones lo d ejustifycontent aqui se te 
 sube todo y desordena el footer
 por qué??? */
 .footer {
+  border-top: solid lightgrey;
   display: flex;
   flex-direction: column;
   background-color: white;
@@ -251,6 +284,7 @@ por qué??? */
 
 .copyfooter {
   text-align: center;
+  margin-top: 30px;
 }
 
 .navfooter {
@@ -259,4 +293,6 @@ por qué??? */
   justify-content: center;
   align-items: center;
   background-color: white;
+}
+.logo {
 }
