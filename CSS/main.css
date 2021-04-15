@@ -41,7 +41,7 @@
 .image1 {
   background-image: url(../images/prueba-hero2.jpeg);
   background-repeat: no-repeat;
-  width: 100vw;
+  width: 100%;
   height: 421px;
   background-size: cover;
 }
@@ -56,7 +56,7 @@
   padding: 15px;
   text-align: justify;
   position: absolute;
-  transform: translate(20px, 390px);
+  transform: translate(20px, 430px);
   z-index: 1;
 }
 /*estilos de movil*/
