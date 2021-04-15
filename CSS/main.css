@@ -12,6 +12,7 @@
   position: fixed;
   top: 0;
   z-index: 2;
+  top: 0;
   font-family: "Rubik", sans-serif;
 }
 .box-name {
@@ -311,6 +312,7 @@ por qué??? */
   justify-content: center;
   align-items: center;
   background-color: white;
+  text-transform: uppercase;
 }
 .logo {
   display: flex;
