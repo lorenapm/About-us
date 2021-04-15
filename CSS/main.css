@@ -39,16 +39,7 @@
   list-style-type: none;
   text-transform: uppercase;
 }
-.list-team {
-  color: white;
-  text-decoration: none;
-}
-.list-whoweare {
-  color: white;
-  text-decoration: none;
-}
-
-.list-contact {
+.list-team, .list-whoweare, .list-contact {
   color: white;
   text-decoration: none;
 }
@@ -306,14 +297,19 @@ por qué??? */
   margin-top: 30px;
 }
 
-.navfooter {
+.footerlist {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: white;
   text-transform: uppercase;
+  list-style: none;
 }
+.f-team,.f-whoweare , .f-contact{
+  color: #54585a;
+  text-decoration: none;
+
 .logo {
   display: flex;
   justify-content: center;
