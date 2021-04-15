@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; 
   --color-text: #54585A;
   --color-title: #099D8D;
@@ -20,7 +20,7 @@
 }
 .box-name {
   width: 100vw;
-  background-color: #099d8d;
+  background-color: var(--color-title);
   padding: 15px;
   text-align: center;
 }
@@ -266,7 +266,7 @@ tablet
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   size: 24px;
-  color: #099d8d;
+  color: var(--color-title);
   text-transform: uppercase;
 }
 .person {
@@ -299,7 +299,7 @@ tablet
 }
 .icons {
   margin-bottom: 45px;
-  color: #099d8d;
+  color: var(--color-title);
 }
 /*si pones lo d ejustifycontent aqui se te 
 sube todo y desordena el footer
@@ -327,7 +327,7 @@ por qué??? */
   list-style: none;
 }
 .f-team,.f-whoweare , .f-contact{
-  color: #54585a;
+  color: var(--color-text);
   text-decoration: none;
 
 .logo {
