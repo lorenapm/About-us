@@ -35,7 +35,21 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  color: antiquewhite;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.list-team {
+  color: white;
+  text-decoration: none;
+}
+.list-whoweare {
+  color: white;
+  text-decoration: none;
+}
+
+.list-contact {
+  color: white;
+  text-decoration: none;
 }
 
 .image1 {
@@ -103,6 +117,14 @@
   size: 24px;
   color: #099d8d;
 }
+
+/*@MEDIAS EN CABECERA 
+tablet
+@media all and (min-width: 768 px){
+
+
+}
+*/
 
 /*estilos de tablet
 @media all and (min-width: 768px) {
