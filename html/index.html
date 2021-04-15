@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8" />
@@ -7,11 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Globetrotter Adalabers</title>
   <script src="https://kit.fontawesome.com/9dceca576d.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="link rel=" preconnect href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="./CSS/reset.css" />
+  <link rel="stylesheet" href="../CSS/main.css" />
+  <link rel="stylesheet" href="link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./CSS/main.css" />  
 </head>
 
 <body>
@@ -19,37 +18,40 @@
     <div class="box-name">
       <h1 class="name">Globetrotter Adalabers</h1>
     </div>
-
-    <nav class="nav1">
-      <ul class="list">
-        <li><a class="list-team" href="#team">equipo</a></li>
-        <li><a class="list-whoweare" href="#whoweare">quiénes somos</a></li>
-        <li><a class="list-contact" href="./html/contact.html">contacto</a></li>
-      </ul>
-    </nav>
-  </header>
+ 
+  <nav class="nav1">
+    <dl class="list">
+      <dt><a href="#team">EQUIPO</a></dt>
+      <dt><a href="#whoweare">QUIÉNES SOMOS</a></dt>
+      <dt><a href="../html/contact.html">CONTACTO</a></dt>
+    </dl>
+  </nav>
+ </header>
 
   <div class="image1">
-    <h2 class="claim">
+  </div>
+  <div class="box-claim">
+    <h2 id="claim">
       Si no podemos ponerle etiqueta, no pertenece a nuestro mundo.
     </h2>
   </div>
+
   <main>
     <section class="equipo">
-      <h2 id="team" class="title1">EQUIPO</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
-        explicabo tenetur, similique eos debitis reiciendis dolore? Numquam
-        veritatis, officia fugit deleniti eos voluptatibus saepe alias autem
-        nam tempore, maiores quaerat? Lorem ipsum dolor sit amet,
-        consectetur adipisicing elit. Quos fugiat, nam accusamus temporibus,
-        quas distinctio nemo veniam incidunt sunt perferendis, itaque
-        assumenda porro eligendi? Id error reiciendis veniam qui repellat.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
-        ullam, maxime quis soluta amet atque nobis eaque, minus eveniet
-        suscipit omnis quisquam aut! Iusto vero consequatur temporibus
-        pariatur dolor quas!
-      </p>
+        <h2 id="team" class="title1">EQUIPO</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam
+          explicabo tenetur, similique eos debitis reiciendis dolore? Numquam
+          veritatis, officia fugit deleniti eos voluptatibus saepe alias autem
+          nam tempore, maiores quaerat? Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Quos fugiat, nam accusamus temporibus,
+          quas distinctio nemo veniam incidunt sunt perferendis, itaque
+          assumenda porro eligendi? Id error reiciendis veniam qui repellat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt,
+          ullam, maxime quis soluta amet atque nobis eaque, minus eveniet
+          suscipit omnis quisquam aut! Iusto vero consequatur temporibus
+          pariatur dolor quas!
+        </p>
     </section>
     <section class="fyd">
       <div>
@@ -77,18 +79,19 @@
         </p>
       </div>
     </section>
-
+    <!-- A QUIEN CORRESPONDA: he tenido que asignarle clase
+asi que si quieres modificar algo en css recuerda que es
+ .title4    -->
     <section class="partners">
       <div>
         <h2 id="whoweare" class="title4">Quiénes somos</h2>
       </div>
       <div class="person">
         <div class="imagekate">
-          <img src="./images/Kate pfp.jpg" width="176px" height="176px" alt="foto de Kate">
+          <img src="../images/Kate pfp.jpg" width="176px" height="176px"  alt="foto de Kate">
         </div>
         <h4 class="nombre">Kate Quillen</h4>
-        <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et
+        <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore magna
           aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.
@@ -102,29 +105,27 @@
         </div>
         <div class="person">
           <div class="imagekate">
-            <img src="./images/Lorena Pérez.jpeg" width="176px" height="176px" alt="foto de lorena">
+            <img src="../images/Kate pfp.jpg" width="176px" height="176px"  alt="foto de Kate">
           </div>
-          <h4 class="nombre">lorena</h4>
-          <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et
+          <h4 class="nombre">Kate Quillen</h4>
+          <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore magna
             aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             E"</p>
           <div class="icons">
-           <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-github-alt"></i>
-          <i class="fas fa-envelope"></i>
+            <i class="fab fa-twitter"></i>
+            <img src="" alt="instagram">
+            <img src="" alt="gato">
+            <img src="" alt="mail">
           </div>
           <div class="person">
             <div class="imagekate">
-              <img src="./images/IMG-5277.jpg" width="176px" height="176px" alt=" foto de natalia">
+              <img src="../images/Kate pfp.jpg" width="176px" height="176px"  alt="foto de Kate">
             </div>
-            <h4 class="nombre">natalia</h4>
-            <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et
+            <h4 class="nombre">Kate Quillen</h4>
+            <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat.
@@ -132,17 +133,16 @@
               E"</p>
             <div class="icons">
               <i class="fab fa-twitter"></i>
-              <i class="fab fa-linkedin-in"></i>
-              <i class="fab fa-github-alt"></i>
-              <i class="fas fa-envelope"></i>
+              <img src="" alt="instagram">
+              <img src="" alt="gato">
+              <img src="" alt="mail">
             </div>
             <div class="person">
               <div class="imagekate">
-                <img src="./images/marina.jpg" width="176px" height="176px" alt="foto de marina">
+                <img src="../images/Kate pfp.jpg" width="176px" height="176px"  alt="foto de Kate">
               </div>
-              <h4 class="nombre">marina benítez sánchez</h4>
-              <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et
+              <h4 class="nombre">Kate Quillen</h4>
+              <p class="description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                 dolore magna
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                 consequat.
@@ -154,30 +154,28 @@
                 <i class="fab fa-github-alt"></i>
                 <i class="fas fa-envelope"></i>
               </div>
-            </div>
-
+      </div>
+      
     </section>
   </main>
 
   <footer>
-    <section class="footer">
+    <nav class="footer">
       <div class="copyfooter">
         <small>&copy; Globetrotter Adalabers 2021</small>
       </div>
-
-
-      <ul class="footerlist">
-        <li><a class="f-team" href="#team">equipo</a></li>
-        <li><a class="f-whoweare" href="#whoweare">quiénes somos</a></li>
-        <li><a class="f-contact" href="./html/contact.html">contacto</a></li>
-      </ul>
-
-
+      <div class="navfooter">
+        <dl>
+          <dt><a href="#team">EQUIPO</a></dt>
+          <dt><a href="#whoweare">QUIÉNES SOMOS</a></dt>
+          <dt> <a href="../html/contact.html">CONTACTO </a> </dt>
+        </dl>
+      </div>
       <div class="logo">
-        <img src="./images/logo-adalab.png">
-    </section>
-    </div>
+        <img src="../images/logo-adalab.png">
+    </nav>
 
+    <!--Buscar logo en repositorio y ver como variar tamaños-->
   </footer>
 </body>
 
