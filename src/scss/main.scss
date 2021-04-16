@@ -1,0 +1,353 @@
+@import "core/variables";
+@import "core/reset";
+@import "components/code";
+@import "components/links";
+@import "layout/page";
+@import "layout/header";
+@import "layout/footer";
+@import "pages/index";
+
+:root {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --color-text: #54585a;
+  --color-title: #099d8d;
+  --font-title: "Rubik";
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  top: 0;
+  font-family: "Rubik", sans-serif;
+}
+.box-name {
+  width: 100vw;
+  background-color: var(--color-title);
+  padding: 15px;
+  text-align: center;
+}
+.name {
+  font-size: 1rem;
+}
+.nav1 {
+  background-color: #14d9c4;
+  width: 100vw;
+  justify-content: center;
+  padding: 8px;
+}
+.list {
+  font-size: 0.9375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+.list-team,
+.list-whoweare,
+.list-contact {
+  color: white;
+  text-decoration: none;
+}
+
+.image1 {
+  background-image: url(./assets/img/Prueba-hero2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 421px;
+  background-size: cover;
+}
+
+.claim {
+  width: 90%;
+  background-color: white;
+  color: black;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-size: 1.125rem;
+  padding: 15px;
+  text-align: justify;
+  position: absolute;
+  transform: translate(20px, 430px);
+  z-index: 1;
+}
+/*estilos de movil*/
+.title1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 24px;
+  color: var(--color-title);
+}
+.equipo {
+  display: flex;
+  flex-direction: column;
+  min-width: 290px;
+  font-size: 16px;
+  text-align: center;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: var(--color-text);
+  padding: 30px;
+}
+
+/*este triangulito me va a matar*/
+
+.triangulo {
+  width: 42px;
+  height: 42px;
+  margin-left: 54%;
+  background-color: white;
+  transform: rotate(45deg) translate(-40px, 70px);
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/*no dicen en el zip el color de este seccion*/
+.fyd {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--color-text);
+  font-size: 16px;
+  background-color: rgba(184, 184, 185, 0.2);
+}
+.title2 {
+  line-height: 45px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  size: 24px;
+  color: var(--color-title);
+}
+.title3 {
+  line-height: 45px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  size: 24px;
+  color: var(--color-title);
+}
+
+/*@MEDIAS EN CABECERA 
+  tablet
+  @media all and (min-width: 768 px){
+  
+  
+  }
+  */
+
+/*estilos de tablet
+  @media all and (min-width: 768px) {
+    .title1 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      size: 24px;
+      height: 105px;
+      padding-bottom: 15px;
+      color: #14d9c4;
+    }
+    .equipo {
+      display: flex;
+      flex-direction: column;
+      width: 100vw;
+      padding-left: 45px;
+      margin-right: 45px;
+      padding-bottom: 30px;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    .fyd {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      width: 100vw;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 30px;
+      padding-bottom: 45px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 16px;
+      background-color: #b8b8b9;
+    }
+    .title2 {
+      line-height: 45px;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      size: 24px;
+      color: #099d8d;
+    }
+    .title3 {
+      line-height: 45px;
+      text-align: center;
+      margin-top: 30px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      size: 24px;
+      color: #099d8d;
+    }
+  }*/
+
+/*estilos de ordenador
+  @media all and (min-width: 1200px) {
+    .title1 {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      size: 24px;
+      line-height: 45px;
+      color: #14d9c4;
+    }
+    .equipo {
+      display: flex;
+      flex-direction: column;
+      height: 192px;
+      padding-left: 300px;
+      padding-right: 300px;
+      padding-top: 15px;
+      padding-bottom: 60px;
+      width: 100vw;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      line-height: 24px;
+    }
+    .fyd {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      width: 100vw;
+      padding-left: 138px;
+      padding-right: 138px;
+      padding-top: 15px;
+      padding-bottom: 60px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-size: 16px;
+      line-height: 24px;
+      background-color: #b8b8b9;
+    }
+    .title2 {
+      line-height: 45px;
+      padding-top: 45px;
+      padding-right: 32px;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      size: 22px;
+      color: #099d8d;
+    }
+    .title3 {
+      line-height: 45px;
+      padding-top: 45px;
+      padding-left: 6.8px;
+      text-align: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      size: 22px;
+      color: #099d8d;
+    }
+  }
+  
+  /*.rectangle {
+    width: 30px;
+    height: 30px;
+    margin: 488.2px 144.8px 564.8px 145.2px;
+    transform: rotate(45deg);
+    background-color: #ffffff;
+  }*/
+
+.title4 {
+  line-height: 45px;
+  text-align: center;
+  margin-top: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  size: 24px;
+  color: var(--color-title);
+  text-transform: uppercase;
+}
+.person {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.imagekate {
+  box-sizing: border-box;
+  border: solid grey;
+  border-radius: 5px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nombre {
+  font-size: 20px;
+}
+.description {
+  margin-top: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 0px 15px 0px;
+}
+.icons {
+  margin-bottom: 45px;
+  color: var(--color-title);
+}
+/*si pones lo d ejustifycontent aqui se te 
+  sube todo y desordena el footer
+  por qué??? */
+.footer {
+  border-top: solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 250px;
+}
+
+.copyfooter {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footerlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-transform: uppercase;
+  list-style: none;
+}
+.f-team,
+.f-whoweare,
+.f-contact {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
