@@ -64,13 +64,10 @@
   width: 100vw;
   height: 421px;
   background-size: cover;
-}
-/*
-@media all and (min-width: 768 px) {
-  .hero {
+  @media all and (min-width: 768 px) {
     background-image: url(/assets/img/hero-medium.jpg);
   }
-}*/
+}
 
 .claim {
   height: 80px;
