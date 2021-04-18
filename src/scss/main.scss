@@ -201,6 +201,49 @@
       size: 24px;
       color: #099d8d;
     }
+}
+/*sección quienessomos* 
+.person {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.nombre {
+  text-transform: capitalize;
+  margin-top: 15px;
+  line-height: 45px;
+}
+.imgcontainer {
+  box-sizing: border-box;
+  border: solid 8px rgba(0, 0, 0, 0.08);
+  border-radius: 7px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.nombre {
+  font-size: 20px;
+}
+.description {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 0px 15px 0px;
+  line-height: 24px;
+}
+.icons {
+  margin-top: 15px;
+  margin-bottom: 45px;
+  color: var(--color-title);
+  line-height: 20px;
+  display: flex;
+}
   }*/
 
 /*estilos de ordenador
@@ -319,6 +362,14 @@
   margin-bottom: 45px;
   color: var(--color-title);
   line-height: 20px;
+  display: flex;
+}
+/*horror!! No me salen los puntos intermedios
+.punto {
+  padding-right: 2px;
+  padding-left: 2px;
+  color: black;
+  line-heigth: 50%;
 }
 /*si pones lo d ejustifycontent aqui se te 
   sube todo y desordena el footer
