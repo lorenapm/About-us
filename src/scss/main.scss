@@ -174,11 +174,6 @@
   align-items: center;
   text-align: center;
 }
-.nombre {
-  text-transform: capitalize;
-  margin-top: 15px;
-  line-height: 45px;
-}
 .imgcontainer {
   box-sizing: border-box;
   border: solid 8px rgba(0, 0, 0, 0.08);
@@ -190,7 +185,21 @@
   align-items: center;
   margin-top: 30px;
 }
+img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .nombre {
+  text-transform: capitalize;
+  margin-top: 15px;
+  line-height: 45px;
   font-size: 20px;
 }
 .description {
@@ -205,6 +214,8 @@
   color: var(--color-title);
   line-height: 20px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 /*horror!! No me salen los puntos intermedios
 .punto {
@@ -282,6 +293,45 @@
     padding: 30px;
     padding-left: 15px;
   }
+
+  .title4 {
+    margin-bottom: 41px;
+  }
+  .person {
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 60px;
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+  .person.dos {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+  .imgcontainer {
+    width: 207px;
+    height: 207px;
+    margin-left: 31px;
+  }
+  .info {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 31px;
+  }
+  .info.dos {
+    align-items: end;
+    padding-right: 31px;
+  }
+  .description {
+    max-width: 443px;
+    text-align: start;
+    padding-left: 0%;
+    margin: 0;
+  }
+  .description.dos {
+    padding-right: 0%;
+    text-align: end;
+  }
 }
 
 /*estilos de ordenador*/
@@ -322,5 +372,39 @@
   .title3 {
     padding-top: 45px;
     padding-left: 6.8px;
+  }
+  .title4 {
+    margin-bottom: 41px;
+  }
+  .person {
+    flex-direction: row;
+    margin-bottom: 60px;
+    margin-left: 44px;
+    margin-right: 44px;
+  }
+  .person.dos {
+    flex-direction: row-reverse;
+    align-items: end;
+  }
+  .imgcontainer {
+    width: 278px;
+    height: 278px;
+    margin-left: 45px;
+  }
+  .info {
+    justify-content: flex-start;
+    padding-left: 41px;
+  }
+  .info.dos {
+    justify-content: flex-end;
+  }
+  .description {
+    max-width: 439px;
+    text-align: start;
+    padding-left: 0%;
+  }
+  .description.dos {
+    padding-right: 0%;
+    text-align: end;
   }
 }
