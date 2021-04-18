@@ -6,6 +6,10 @@
 @import "layout/header";
 @import "layout/footer";
 @import "pages/index";
+@font-face {
+  font-family: Rubik;
+  src: url(Rubik.woff);
+}
 
 :root {
   font-size: 16px;
@@ -13,7 +17,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   --color-text: #54585a;
   --color-title: #099d8d;
-  --font-title: "Rubik";
+  text-transform: initial;
 }
 .head {
   display: flex;
@@ -90,6 +94,8 @@
 .title1 {
   line-height: 24px;
   color: var(--color-title);
+  text-transform: uppercase;
+  font-family: Rubik;
 }
 .equipo {
   display: flex;
@@ -99,6 +105,7 @@
   text-align: center;
   color: var(--color-text);
   padding: 30px;
+  padding-top: 60px;
 }
 
 /*este triangulito me va a matar*/
@@ -128,6 +135,8 @@
   text-align: center;
   size: 22px;
   color: var(--color-title);
+  text-transform: uppercase;
+  font-family: Rubik;
 }
 
 .title3 {
@@ -135,6 +144,8 @@
   text-align: center;
   size: 22px;
   color: var(--color-title);
+  text-transform: uppercase;
+  font-family: Rubik;
 }
 
 /*@MEDIAS EN CABECERA 
@@ -241,19 +252,20 @@
   .fyd {
     display: flex;
     flex-direction: row;
-    text-align: center;
     width: 100vw;
-    padding: 30px;
-    padding-bottom: 45px;
+    padding-top: 45px;
+    padding-bottom: 60px;
     background-color: #b8b8b9;
   }
 
   .fortalezas {
     padding: 30px;
+    padding-right: 15px;
   }
 
   .debilidades {
     padding: 30px;
+    padding-left: 15px;
   }
 }
 
@@ -263,21 +275,30 @@
     line-height: 45px;
   }
   .equipo {
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 15px;
+    padding-top: 45px;
     padding-bottom: 60px;
-    width: 100vw;
-    text-align: center;
+    width: 601px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 24px;
   }
   .fyd {
     display: flex;
     flex-direction: row;
     width: 100vw;
-    padding-top: 15px;
+    padding-top: 45px;
     padding-bottom: 60px;
     line-height: 24px;
+  }
+
+  .fortalezas {
+    padding: 30px;
+    padding-right: 22.5px;
+  }
+
+  .debilidades {
+    padding: 30px;
+    padding-left: 22.5px;
   }
   .title2 {
     padding-top: 45px;
