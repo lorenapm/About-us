@@ -4,6 +4,10 @@
 @import "components/links";
 @import "layout/page";
 @import "layout/header";
+@import "layout/main/hero";
+@import "layout/main/team";
+@import "layout/main/swot";
+@import "layout/main/whoweare";
 @import "layout/footer";
 @import "pages/index";
 @font-face {
@@ -19,283 +23,9 @@
   --color-title: #099d8d;
   text-transform: initial;
 }
-.head {
-  display: flex;
-  flex-direction: column;
-  color: white;
-  justify-content: center;
-  text-transform: uppercase;
-  position: fixed;
-  top: 0;
-  z-index: 2;
-  top: 0;
-  font-family: "Rubik", sans-serif;
-}
-.box-name {
-  width: 100vw;
-  background-color: var(--color-title);
-  padding: 15px;
-  text-align: center;
-}
-.name {
-  font-size: 1rem;
-}
-.nav1 {
-  background-color: #14d9c4;
-  width: 100vw;
-  justify-content: center;
-  padding: 8px;
-}
-.list {
-  font-size: 0.9375rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  list-style-type: none;
-  text-transform: uppercase;
-}
-.list-team,
-.list-whoweare,
-.list-contact {
-  color: white;
-  text-decoration: none;
-}
-
-.hero {
-  background-image: url("../img/hero.jpg");
-  background-repeat: no-repeat;
-  width: 100vw;
-  height: 421px;
-  background-size: cover;
-  /*@media all and (min-width: 768px) {
-    bbackground-image: url("../img/hero.jpg");
-  } cambiar imagen medium*/
-}
-
-.claim {
-  height: 80px;
-  background-color: white;
-  color: black;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-style: normal;
-  font-size: 1.125rem;
-  padding: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  position: absolute;
-  transform: translate(0, 395px);
-  text-align: justify;
-  white-space: normal;
-  z-index: 1;
-}
-/*estilos de movil*/
-.title1 {
-  line-height: 24px;
-  color: var(--color-title);
-  text-transform: uppercase;
-  font-family: Rubik;
-}
-.equipo {
-  display: flex;
-  flex-direction: column;
-  min-width: 290px;
-  font-size: 16px;
-  text-align: center;
-  color: var(--color-text);
-  padding: 30px;
-  padding-top: 60px;
-}
-
-/*este triangulito me va a matar*/
-
-.triangulo {
-  width: 42px;
-  height: 42px;
-  /*margin-left: 54%;*/
-  position: absolute;
-  background-color: white;
-  transform: translate(-21px, -50%) rotate(45deg);
-  margin-left: 50%;
-  padding: 0;
-  z-index: 1000;
-}
-
-/*no dicen en el zip el color de este seccion*/
-.fyd {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 30px;
-  color: var(--color-text);
-  font-size: 16px;
-  background-color: #b8b8b9;
-}
-.title2 {
-  line-height: 45px;
-  text-align: center;
-  size: 22px;
-  color: var(--color-title);
-  text-transform: uppercase;
-  font-family: Rubik;
-}
-
-.title3 {
-  line-height: 45px;
-  text-align: center;
-  size: 22px;
-  color: var(--color-title);
-  text-transform: uppercase;
-  font-family: Rubik;
-}
-
-/*@MEDIAS EN CABECERA 
-  tablet
-  @media all and (min-width: 768 px){
-  
-  
-  }
-  */
-
-.title4 {
-  line-height: 45px;
-  text-align: center;
-  margin-top: 30px;
-  font-family: "Open Sans", sans-serif;
-  size: 24px;
-  color: var(--color-title);
-  text-transform: uppercase;
-}
-.person {
-  width: 100%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.imgcontainer {
-  box-sizing: border-box;
-  border: solid 8px rgba(0, 0, 0, 0.08);
-  border-radius: 7px;
-  width: 180px;
-  height: 180px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-}
-img {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.nombre {
-  text-transform: capitalize;
-  margin-top: 15px;
-  line-height: 45px;
-  font-size: 20px;
-}
-.description {
-  margin-right: 15px;
-  margin-left: 15px;
-  padding: 0px 15px 0px;
-  line-height: 24px;
-}
-.icons {
-  margin-top: 15px;
-  margin-bottom: 45px;
-  color: var(--color-title);
-  line-height: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-/*horror!! No me salen los puntos intermedios
-.punto {
-  padding-right: 2px;
-  padding-left: 2px;
-  color: black;
-  line-heigth: 50%;
-}
-/*si pones lo d ejustifycontent aqui se te 
-  sube todo y desordena el footer
-  por qué??? */
-.footer {
-  border-top: solid lightgrey;
-  display: flex;
-  flex-direction: column;
-  background-color: white;
-  height: 250px;
-}
-
-.copyfooter {
-  text-align: center;
-  margin-top: 30px;
-}
-
-.footerlist {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: white;
-  text-transform: uppercase;
-  list-style: none;
-}
-.f-team,
-.f-whoweare,
-.f-contact {
-  color: var(--color-text);
-  text-decoration: none;
-}
-
-.logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
 
 /*estilos de tablet*/
 @media all and (min-width: 768px) {
-  .title1 {
-    padding-top: 45px;
-    padding-bottom: 15px;
-  }
-  .equipo {
-    width: 100vw;
-    padding: 45px;
-    padding-bottom: 30px;
-  }
-
-  .fyd {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-    padding-top: 45px;
-    padding-bottom: 60px;
-    background-color: #b8b8b9;
-  }
-
-  .fortalezas {
-    padding: 30px;
-    padding-right: 15px;
-  }
-
-  .debilidades {
-    padding: 30px;
-    padding-left: 15px;
-  }
-
   .title4 {
     margin-bottom: 41px;
   }
@@ -341,7 +71,7 @@ img {
   .title1 {
     line-height: 45px;
   }
-  .equipo {
+  .team {
     padding-top: 45px;
     padding-bottom: 60px;
     width: 601px;
@@ -349,7 +79,7 @@ img {
     margin-right: auto;
     line-height: 24px;
   }
-  .fyd {
+  .swot {
     display: flex;
     flex-direction: row;
     width: 100vw;
@@ -358,12 +88,12 @@ img {
     line-height: 24px;
   }
 
-  .fortalezas {
+  .strengths {
     padding: 30px;
     padding-right: 22.5px;
   }
 
-  .debilidades {
+  .weaknesses {
     padding: 30px;
     padding-left: 22.5px;
   }

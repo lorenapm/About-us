@@ -1,0 +1,49 @@
+.swot {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  color: var(--color-text);
+  font-size: 16px;
+  background-color: #b8b8b9;
+  @media all and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding-top: 45px;
+    padding-bottom: 60px;
+    background-color: #b8b8b9;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .strengths {
+    padding: 30px;
+    padding-right: 15px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .weaknesses {
+    padding: 30px;
+    padding-left: 15px;
+  }
+}
+
+.title2 {
+  line-height: 45px;
+  text-align: center;
+  size: 22px;
+  color: var(--color-title);
+  text-transform: uppercase;
+  font-family: Rubik;
+}
+
+.title3 {
+  line-height: 45px;
+  text-align: center;
+  size: 22px;
+  color: var(--color-title);
+  text-transform: uppercase;
+  font-family: Rubik;
+}

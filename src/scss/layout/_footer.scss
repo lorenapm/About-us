@@ -1,0 +1,35 @@
+.footer {
+  border-top: solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 250px;
+}
+
+.copyfooter {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.footerlist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-transform: uppercase;
+  list-style: none;
+}
+.f-team,
+.f-whoweare,
+.f-contact {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
