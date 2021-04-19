@@ -5,7 +5,7 @@
   height: 421px;
   background-size: cover;
   @media all and (min-width: 768px) {
-    background-image: url("../img/hero-medium.jpg");
+    background-image: url("../assets/img/hero-medium.jpg");
   }
 }
 
@@ -25,4 +25,10 @@
   text-align: justify;
   white-space: normal;
   z-index: 1;
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 45px;
+  }
 }
