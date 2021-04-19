@@ -27,9 +27,19 @@
   text-decoration: none;
 }
 
-.logo {
+/*.logo {
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+}*/
+
+.logo {
+  box-sizing: border-box;
+  width: 115, 9px;
+  background-color: #ffffff;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
