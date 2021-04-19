@@ -4,9 +4,9 @@
   width: 100vw;
   height: 421px;
   background-size: cover;
-  /*@media all and (min-width: 768px) {
-      bbackground-image: url("../img/hero.jpg");
-    } cambiar imagen medium*/
+  @media all and (min-width: 768px) {
+    bbackground-image: url("../img/hero.jpg");
+  }
 }
 
 .claim {
