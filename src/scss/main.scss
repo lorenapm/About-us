@@ -23,6 +23,15 @@
   --color-title: #099d8d;
   text-transform: initial;
 }
+/*.center-column {
+  min-width: 290px;
+  @media all and (min-width: 768px) {
+    min-width: 678px;
+  }
+  @media all and (min-width: 1200px) {
+    min-width: 924px;
+  }
+}*/
 
 /*estilos de ordenador*/
 @media all and (min-width: 1200px) {
