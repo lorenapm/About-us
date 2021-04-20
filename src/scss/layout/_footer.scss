@@ -9,6 +9,10 @@
 .copyfooter {
   text-align: center;
   margin-top: 30px;
+  margin-bottom: 20px;
+  @media all and (min-width: 768px) {
+    margin-top: 30px;
+  }
 }
 
 .footerlist {
@@ -19,6 +23,11 @@
   background-color: white;
   text-transform: uppercase;
   list-style: none;
+  margin-top: 20px;
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: flex-end;
+  }
 }
 .f-team,
 .f-whoweare,
@@ -27,6 +36,19 @@
   text-decoration: none;
 }
 
+.photologo {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 45px;
+
+  /*NO FUNCIONA  LA MEDIAQ
+  @media all and (min-width: 768px) {
+    margin-top: 15px;
+    margin-bottom: 60px;
+    margin-left: 0%;
+  } */
+}
 .logo {
   box-sizing: border-box;
   width: 115.9px;
