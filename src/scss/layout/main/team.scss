@@ -1,13 +1,12 @@
 .title1 {
   line-height: 24px;
+  padding-bottom: 15px;
+  padding-top: 45px;
   color: var(--color-title);
   text-transform: uppercase;
   font-family: Rubik;
-  @media all and (min-width: 768px) {
-    padding-top: 45px;
-    padding-bottom: 15px;
-  }
 }
+
 .team {
   display: flex;
   flex-direction: column;
