@@ -43,6 +43,11 @@ img {
   margin-top: 15px;
   line-height: 45px;
   font-size: 20px;
+  @media all and (max-width: 768px) {
+    .nombre:nth-child(even) {
+      text-align: end;
+    }
+  }
 }
 .description {
   margin-right: 15px;
@@ -58,6 +63,8 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.icons:after {
 }
 /*horror!! No me salen los puntos intermedios
   .punto {
@@ -78,7 +85,7 @@ img {
     margin-left: 44px;
     margin-right: 44px;
   }
-  .person.dos {
+  .person:nth-child(even) {
     flex-direction: row-reverse;
     align-items: flex-end;
   }
