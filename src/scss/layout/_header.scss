@@ -1,15 +1,14 @@
 .header {
   color: white;
   text-transform: uppercase;
-  top: 0;
-  left: 0%;
   width: 100%;
   z-index: 5;
   font-family: "Rubik", sans-serif;
+  position: fixed;
   display: flex;
   flex-direction: column;
-  position: fixed;
   justify-content: center;
+  opacity: 95%;
 
   @media all and (min-width: 768px) {
     background-color: #099d8d;
@@ -19,16 +18,19 @@
     height: 60px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
   }
 }
 
 .box-name {
   width: 100vw;
   background-color: var(--color-title);
-  padding: 15px;
   height: 60px;
-  text-align: center;
+  padding: 22px;
+  /* cual es la forma facil de q
+   lo centre sin calcular padding y dividir?*/
+  display: flex;
+  justify-content: center;
+
   @media all and (min-width: 768px) {
     background-color: #099d8d;
     font-size: 16px;
@@ -39,21 +41,27 @@
 }
 .name {
   font-size: 1rem;
+  display: flex;
+  text-align: center;
   @media all and (min-width: 768px) {
-    flex-wrap: nowrap;
+    display: flex;
+    justify-content: flex-start;
   }
 }
 
 .nav1 {
   background-color: #14d9c4;
   width: 100vw;
-  justify-content: center;
-  padding: 8px;
+  display: inline-block;
+  justify-content: space-around;
+  padding: 10px;
+  height: 45px;
   @media all and (min-width: 768px) {
     background-color: #099d8d;
+    font-size: 15px;
     display: flex;
     flex-direction: row;
-    font-size: 16px;
+    justify-content: flex-end;
   }
 }
 .list {
