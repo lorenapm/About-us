@@ -99,21 +99,21 @@ img {
   align-items: center;
   @media all and (min-width: 768px) {
     .info {
-     align-items: flex-start;
-     justify-content: flex-start;
-     padding-left: 31px;
-   }
-   .info.dos {
-    justify-content: flex-end;
-    align-items: flex-end;
+      align-items: flex-start;
+      justify-content: flex-start;
+      padding-left: 31px;
+    }
+    .info.dos {
+      justify-content: flex-end;
+      align-items: flex-end;
     }
   }
   @media all and (min-width: 1200px) {
     .info {
-     justify-content: flex-start;
-     padding-left: 41px;
-     }
-     .info.dos {
+      justify-content: flex-start;
+      padding-left: 41px;
+    }
+    .info.dos {
       justify-content: flex-end;
       align-items: flex-end;
     }
@@ -130,6 +130,7 @@ img {
       align-items: end;
       padding-right: 31px;
     }
+  }
 }
 .description {
   margin-right: 15px;
@@ -147,7 +148,7 @@ img {
       padding-right: 0%;
       text-align: end;
     }
-  } 
+  }
   @media all and (min-width: 1200px) {
     .description {
       max-width: 439px;
