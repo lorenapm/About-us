@@ -24,12 +24,10 @@
                     Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.
             </p>
             <form class="form" action="/signup" method="post">
-                <label for="fullName" class="align-left">
+                <label for="fullName" class="name-message">
                     Nombre completo<span class="asterisk">*</span>
                 </label>
                 <input placeholder="Nombre" id="fullName" type="text" name="fullName" class="box" required/>
-                
-                
                 <div class="row">
                     <div class=email>
                         <label for="email">
@@ -44,8 +42,7 @@
                         <input placeholder="E.j. 123456789" id="phone" type="tel" class="box" name="phone"/>
                     </div>
                 </div>
-
-                <label for="message">
+                <label for="message" class="name-message">
                     Mensaje<span class="asterisk">*</span>
                 </label>
                 <textarea rows="10" columns="25" placeholder="¿Qué necesitas?" type="text" name="message" class="box2" required></textarea>
