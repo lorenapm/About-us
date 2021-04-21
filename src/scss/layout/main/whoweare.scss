@@ -1,16 +1,16 @@
-.partners {
-  width: 100%;
-}
+// .partners {
+//   width: 100%;
+// }
 //valor para poner una sola vez en el main
 .center-column {
-  margin: 0 30px;
+  margin: 0 15px;
   @media all and (min-width: 768px) {
-    width: 88.55%;
-    margin: 0 88px;
+    //width: 88.55%;
+    margin: 0 44px;
   }
   @media all and (min-width: 1200px) {
-    width: 77%;
-    margin: 0 276px;
+    //width: 77%;
+    margin: 0 138px;
   }
 }
 .title4 {
@@ -22,47 +22,37 @@
   color: var(--color-title);
   text-transform: uppercase;
   @media all and (min-width: 768px) {
-    .title4 {
-      margin-bottom: 41px;
-    }
+    margin-bottom: 41px;
   }
   @media all and (min-width: 1200px) {
-    .title4 {
-      margin-bottom: 41px;
-    }
+    margin-bottom: 41px;
   }
 }
 .person {
   width: 100%;
-  height: auto;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   @media all and (min-width: 768px) {
-    .person {
-      flex-direction: row;
-      justify-content: start;
-      margin-bottom: 60px;
-      margin-left: 44px;
-      margin-right: 44px;
-    }
-    .person:nth-child(odd) {
-      flex-direction: row-reverse;
-      align-items: flex-end;
-    }
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 60px;
   }
   @media all and (min-width: 1200px) {
-    .person {
-      flex-direction: row;
-      margin-bottom: 60px;
-      margin-left: 44px;
-      margin-right: 44px;
-    }
+    flex-direction: row;
+    margin-bottom: 60px;
   }
 }
-.imgcontainer {
+@media all and (min-width: 768px) {
+  .person:nth-child(odd) {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+  }
+}
+.img {
   box-sizing: border-box;
   border: solid 8px rgba(0, 0, 0, 0.08);
   border-radius: 7px;
@@ -73,24 +63,15 @@
   align-items: center;
   margin-top: 30px;
   @media all and (min-width: 768px) {
-    .imgcontainer {
-      width: 207px;
-      height: 207px;
-      margin-left: 31px;
-    }
+    width: 207px;
+    height: 207px;
+    margin-left: 31px;
   }
   @media all and (min-width: 1200px) {
-    .imgcontainer {
-      width: 278px;
-      height: 278px;
-      margin-left: 45px;
-    }
+    width: 278px;
+    height: 278px;
+    margin-left: 45px;
   }
-}
-img {
-  width: 100%;
-  height: 100%;
-  display: block;
 }
 .info {
   display: flex;
@@ -98,28 +79,22 @@ img {
   justify-content: center;
   align-items: center;
   @media all and (min-width: 768px) {
-    .info {
-     align-items: flex-start;
-     justify-content: flex-start;
-     padding-left: 31px;
-   }
-   .info.dos {
-    justify-content: flex-end;
-    align-items: flex-end;
-    }
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 31px;
   }
   @media all and (min-width: 1200px) {
-    .info {
-     justify-content: flex-start;
-     padding-left: 41px;
-     }
-     .info.dos {
-      justify-content: flex-end;
-      align-items: flex-end;
-    }
+    justify-content: flex-start;
+    padding-left: 41px;
   }
 }
-
+@media all and (min-width: 768px) {
+  .dos {
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+}
 .nombre {
   text-transform: capitalize;
   margin-top: 15px;
@@ -130,6 +105,7 @@ img {
       align-items: end;
       padding-right: 31px;
     }
+  }
 }
 .description {
   margin-right: 15px;
@@ -137,26 +113,20 @@ img {
   padding: 0px 15px 0px;
   line-height: 24px;
   @media all and (min-width: 768px) {
-    .description {
-      max-width: 443px;
-      text-align: start;
-      padding-left: 0%;
-      margin: 0;
-    }
-    .description.dos {
-      padding-right: 0%;
-      text-align: end;
-    }
-  } 
+    max-width: 443px;
+    text-align: start;
+    padding-left: 0%;
+    margin: 0;
+  }
   @media all and (min-width: 1200px) {
     .description {
       max-width: 439px;
       text-align: start;
       padding-left: 0%;
     }
-    .description.dos {
+    .description .dos {
       padding-right: 0%;
-      text-align: end;
+      text-align: right;
     }
   }
 }
