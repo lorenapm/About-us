@@ -30,30 +30,39 @@
     </div>
 
     <main class="container">
-        <h1 class="title">contacto</h1>
-        <p class="description">¿Te interesa nuestra vision global y nuestra experienca como Globetrotter Adalabers? Ponte en contacto con nosotras.</p>
-        <p class="todos">
-                Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.
-        </p>
-        <form class="form" action="/signup" method="post">
-            <label for="fullName">
-                Nombre completo<span class="asterisk">*</span>
-            </label>
-            <input placeholder="Nombre" id="fullName" type="text" name="fullName" class="box" required/>
-            <label for="email">
-                Email<span class="asterisk">*</span>
-            </label>
-            <input placeholder="nombre.apellidos@mail.com" id="lastName" type="text" name="email" class="box" value="nombre.apellidos@mail.com" required/>
-            <label for="phone">
-                Teléfono
-            </label>
-            <input placeholder="E.j. 123456789" id="phone" type="text" class="box" name="phone"/>
-            <label for="message">
-                Mensaje<span class="asterisk">*</span>
-            </label>
-            <textarea rows="10" columns="25" placeholder="¿Qué necesitas?" id="message" type="text" name="message" class="box2" required></textarea>
-            <input type="submit" value="Enviar" />
-        </form>
+            <h1 class="title">contacto</h1>
+            <p class="description">¿Te interesa nuestra vision global y nuestra experienca como Globetrotter Adalabers? Ponte en contacto con nosotras.</p>
+            <p class="obligatory">
+                    Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.
+            </p>
+            <form class="form" action="/signup" method="post">
+                <label for="fullName" class="align-left">
+                    Nombre completo<span class="asterisk">*</span>
+                </label>
+                <input placeholder="Nombre" id="fullName" type="text" name="fullName" class="box" required/>
+                
+                
+                <div class="row">
+                    <div class=email>
+                        <label for="email">
+                            Email<span class="asterisk">*</span>
+                        </label>
+                        <input placeholder="nombre.apellidos@mail.com" id="email" type="email" name="email" class="box" required/>
+                    </div>
+                    <div class="telephone">
+                        <label for="phone">
+                            Teléfono
+                        </label>
+                        <input placeholder="E.j. 123456789" id="phone" type="tel" class="box" name="phone"/>
+                    </div>
+                </div>
+
+                <label for="message">
+                    Mensaje<span class="asterisk">*</span>
+                </label>
+                <textarea rows="10" columns="25" placeholder="¿Qué necesitas?" type="text" name="message" class="box2" required></textarea>
+                <input type="submit" value="Enviar" />
+            </form>
         <!--ESTO VA EN SU PARCIAL de contact
             es para probar ahora y que se vea algo en body-->
     </main>
