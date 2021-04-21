@@ -31,7 +31,6 @@
     justify-content: flex-end;
     align-items: flex-end;
     margin-right: 45px;
-    /* word-spacing: normal; no lo separa */
   }
 }
 .f-team,
@@ -44,12 +43,13 @@
 .logo {
   width: 115.9px;
   height: 45px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   margin: auto;
   margin-bottom: 45px;
   margin-top: 30px;
 
   @media all and (min-width: 768px) {
-    margin: 0;
+    margin-left: 0%;
   }
 }

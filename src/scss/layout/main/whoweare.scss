@@ -67,14 +67,13 @@
   @media all and (min-width: 768px) {
     width: 207px;
     height: 207px;
-    margin-left: 31px;
   }
   @media all and (min-width: 1200px) {
     width: 278px;
     height: 278px;
-    margin-left: 45px;
   }
 }
+
 .info {
   display: flex;
   flex-direction: column;
@@ -83,11 +82,11 @@
   @media all and (min-width: 768px) {
     align-items: flex-start;
     justify-content: flex-start;
-    padding-left: 31px;
+    margin-left: 31px;
   }
   @media all and (min-width: 1200px) {
     justify-content: flex-start;
-    padding-left: 41px;
+    margin-left: 41px;
   }
 }
 @media all and (min-width: 768px) {
@@ -95,8 +94,17 @@
     justify-content: flex-end;
     align-items: flex-end;
     text-align: right;
+    margin-right: 31px;
+    margin-left: 0px;
   }
 }
+@media all and (min-width: 1200px) {
+  .dos {
+    margin-right: 45px;
+    margin-left: 0px;
+  }
+}
+
 .nombre {
   text-transform: capitalize;
   margin-top: 15px;
@@ -121,25 +129,32 @@
     margin: 0;
   }
   @media all and (min-width: 1200px) {
-    .description {
-      max-width: 439px;
-      text-align: start;
-      padding-left: 0%;
-    }
-    .description .dos {
-      padding-right: 0%;
-      text-align: right;
-    }
+    max-width: 439px;
+    text-align: left;
+    padding-left: 0%;
+  }
+}
+@media all and (min-width: 768px) {
+  .dcha {
+    padding-right: 0%;
+    text-align: right;
   }
 }
 .icons {
   margin-top: 15px;
   margin-bottom: 45px;
+  margin-right: 0px;
   color: var(--color-title);
   //line-height: 20px;//
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+.socialmedia {
+  margin-right: 15px;
+}
+.socialmedia:nth-last-child {
+  margin-right: 0;
 }
 .socialmedia:after {
   content: ".";
