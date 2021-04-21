@@ -2,6 +2,9 @@
 //   width: 100%;
 // }
 //valor para poner una sola vez en el main
+.partners {
+  width: 100%;
+}
 .center-column {
   margin: 0 15px;
   @media all and (min-width: 768px) {
@@ -30,7 +33,6 @@
 }
 .person {
   width: 100%;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
