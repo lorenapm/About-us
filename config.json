@@ -32,7 +32,7 @@
   "images": {
     "src": "src/images/**/*.{gif,jpg,jpeg,JPG,JPEG,png,svg}",
     "dest": "public/assets/img/",
-    "dist": "docs/assets/images/"
+    "dist": "docs/assets/img/"
   },
   "watch": {
     "html": "src/**/*.html"
