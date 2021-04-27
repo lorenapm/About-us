@@ -4,6 +4,7 @@
   flex-direction: column;
   background-color: white;
   height: 250px;
+
   @media all and (min-width: 768px) {
     display: flex;
     flex-direction: row-reverse;
@@ -12,6 +13,8 @@
 }
 
 .footerlist {
+  color: #54585a;
+  font-size: 14px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,15 +23,9 @@
   text-transform: uppercase;
   list-style: none;
   margin-top: 20px;
-  @media all and (min-width: 768px) {
-    align-items: flex-end;
-  }
-}
-.f-team,
-.f-whoweare,
-.f-contact {
-  color: var(--color-text);
+  line-height: 20px;
   text-decoration: none;
+  list-style-type: none;
 }
 
 .logo {
@@ -43,16 +40,20 @@
     order: 1;
     margin-top: 20px;
     margin-left: 0px;
-    border-bottom: 15px;
   }
 }
 
-.copyfooter {
-  text-align: center;
-  @media all and (min-width: 768px) {
-    display: flex;
-    justify-content: center;
-    margin-left: 0px;
-    order: 1;
-  }
-}
+// .copyfooter {
+//   color: #b8b8b9;
+//   margin-top: 30px;
+//   margin: auto;
+//   text-align: center;
+// }
+
+//   @media all and (min-width: 768px) {
+
+//     order: 1;
+//     margin-top: 30px;
+//     margin-left: 15px;
+
+//   }
