@@ -41,6 +41,7 @@
   @media all and (min-width: 768px) {
     flex-direction: row;
     justify-content: start;
+    align-items: unset;
     margin-bottom: 60px;
   }
   @media all and (min-width: 1200px) {
@@ -51,7 +52,7 @@
 @media all and (min-width: 768px) {
   .person:nth-child(odd) {
     flex-direction: row-reverse;
-    align-items: flex-end;
+    align-items: unset;
   }
 }
 .img {
