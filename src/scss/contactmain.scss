@@ -12,8 +12,6 @@
 :root {
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  --color-text: #54585a;
-  --color-title: #099d8d;
   text-transform: initial;
 }
 
@@ -32,31 +30,31 @@
 }
 
 .container {
-  /*display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;*/
+  justify-content: center;
   margin-right: auto;
   margin-left: auto;
   padding: 15px;
   padding-top: 30px;
   text-align: center;
-  color: #54585a 100%;
   font-family: "Open Sans", sans-serif;
   @media all and (min-width: 768px) {
     max-width: 442px;
   }
   @media all and (min-width: 1200px) {
     padding-top: 45px;
-    width: 100%;
+    width: 100vw;
+    align-items: center;
   }
 }
 
 .title {
   line-height: 24px;
   padding-bottom: 15px;
-  color: var(--color-title);
+  color: $color-title;
   text-transform: uppercase;
-  font-family: "Rubik" sans-serif; /*porque no funciona esto??*/
+  font-family: "Rubik", sans-serif;
 }
 
 .description {
@@ -71,12 +69,33 @@
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
+
+.overview {
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  color: $color-text;
+  line-height: 24px;
+  margin-right: auto;
+  margin-left: auto;
+  @media all and (min-width: 768px) {
+    width: 100vw;
+    max-width: 442px;
+  }
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100vw;
+  }
+}
+
 .form {
   display: flex;
   flex-direction: column;
   min-width: 290px;
   font-size: 14px;
-  color: var(--color-text);
+  color: $color-text;
 
   padding-top: 60px;
   @media all and (min-width: 768px) {
@@ -96,7 +115,7 @@
   width: 390px;
 }
 .asterisk {
-  color: #099d8d;
+  color: $color-title;
 }
 
 label {
@@ -123,7 +142,7 @@ input[type="tel"] {
 }
 
 input[type="submit"] {
-  background-color: var(--color-title);
+  background-color: $color-title;
   color: #ffffff;
   font-size: 16px;
   font-family: "Open Sans" sans-serif;
