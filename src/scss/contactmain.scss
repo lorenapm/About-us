@@ -149,3 +149,27 @@ input[type="submit"] {
   height: 105px;
   margin-bottom: 30px;
 }
+
+.row {
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.row_email {
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    margin-right: 22px;
+    flex-grow: 2;
+  }
+}
+
+.row_phone {
+  @media all and (min-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    margin-left: 22px;
+    flex-grow: 1;
+  }
+}
