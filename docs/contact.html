@@ -30,24 +30,32 @@
     </div>
 
     <main class="container">
-        <h1 class="title">contacto</h1>
-        <p class="description">¿Te interesa nuestra vision global y nuestra experienca como Globetrotter Adalabers? Ponte en contacto con nosotras.</p>
-        <p class="todos">
-                Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.
-        </p>
+        <div class="overview">
+            <h1 class="title">contacto</h1>
+            <p class="description">¿Te interesa nuestra vision global y nuestra experienca como Globetrotter Adalabers? Ponte en contacto con nosotras.</p>
+            <small class="todos">
+                    Todos los campos marcados con <span class="asterisk">*</span> son obligatorios.
+            </small>
+        </div>
         <form class="form" action="/signup" method="post">
             <label for="fullName">
                 Nombre completo<span class="asterisk">*</span>
             </label>
             <input placeholder="Nombre" id="fullName" type="text" name="fullName" class="box" required/>
-            <label for="email">
-                Email<span class="asterisk">*</span>
-            </label>
-            <input placeholder="nombre.apellidos@mail.com" id="lastName" type="text" name="email" class="box" value="nombre.apellidos@mail.com" required/>
-            <label for="phone">
-                Teléfono
-            </label>
-            <input placeholder="E.j. 123456789" id="phone" type="text" class="box" name="phone"/>
+            <div class="row">
+                <div class="row_email">
+                    <label for="email">
+                        Email<span class="asterisk">*</span>
+                    </label>
+                    <input placeholder="nombre.apellidos@mail.com" id="lastName" type="text" name="email" class="box"  required/>
+                </div>
+                <div class="row_phone">
+                    <label for="phone">
+                        Teléfono
+                    </label>
+                    <input placeholder="E.j. 123456789" id="phone" type="text" class="box" name="phone"/>
+                </div>
+            </div>
             <label for="message">
                 Mensaje<span class="asterisk">*</span>
             </label>
