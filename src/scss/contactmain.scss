@@ -77,11 +77,10 @@
   min-width: 290px;
   font-size: 14px;
   color: var(--color-text);
-  padding: 30px;
+
   padding-top: 60px;
   @media all and (min-width: 768px) {
     width: 100vw;
-    padding: 45px;
     padding-bottom: 30px;
     max-width: 442px;
   }
